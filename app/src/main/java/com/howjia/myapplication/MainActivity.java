@@ -11,4 +11,10 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
     //这里加上一行注释，也作为是一个修改
+
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+    }
 }
